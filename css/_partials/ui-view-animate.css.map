@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,qCAAuC,CACrC,kBAAkB,CAAC,oBAAoB,CACvC,eAAe,CAAC,oBAAoB,CACpC,aAAa,CAAC,oBAAoB,CAClC,UAAU,CAAC,oBAAoB,CAGjC,kBAAmB,CACjB,OAAO,CAAE,CAAC,CAGZ,yBAA0B,CACxB,OAAO,CAAE,CAAC,CAGZ,kBAAmB,CACjB,OAAO,CAAE,CAAC,CAGZ,yBAA0B,CACxB,OAAO,CAAE,IAAI",
+"sources": ["ui-view-animate.scss"],
+"names": [],
+"file": "ui-view-animate.css"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "psd2html-boilerplate",
+  "description": "Gulp + Ejs + Sass + CoffeeScript + LiveReload + Bower",
+  "version": "1.2.2",
+  "license": "MIT",
+  "repository": "avevlad/psd2html-boilerplate",
+  "author": {
+    "name": "Vladislav Derjavin",
+    "email": "dev@vld.me",
+    "url": "http://vld.me"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "3.8.8",
+    "gulp-clean": "",
+    "gulp-coffee": "^1.4.1",
+    "gulp-compass": "^1.1.8",
+    "gulp-concat": "~2.4.3",
+    "gulp-concat-css": "^1.1.1",
+    "gulp-connect": "^2.0.6",
+    "gulp-csscomb": "^3.0.3",
+    "gulp-ejs": "^0.2.2",
+    "gulp-if": "",
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-imagemin": "^2.0.0",
+    "gulp-load-plugins": "^0.5.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-order": "^1.1.1",
+    "gulp-uglify": "^1.0.2",
+    "gulp-util": "^2.2.14",
+    "run-sequence": "^1.0.2",
+    "gulp-wrap": "~0.5.0",
+    "gulp-declare": "~0.3.0",
+    "gulp-handlebars": "~3.0.1",
+    "gulp.spritesmith": "~2.4.0"
+  },
+  "dependencies": {
+    "imagemin": "^3.1.0"
+  }
+}

@@ -1,0 +1,38 @@
+
+<div ui-view></div>
+
+<section class="section-list">
+    <div class="container">
+        <div class="list-filter">
+          <span>Фильтр:</span>
+          <input type="text" ng-model="itemsFilter.title" placeholder="Поиск элемента">
+        </div>
+        <div class="no-result" ng-if="(items | filter:itemsFilter).length <= 0">
+            Результаты не найдены
+        </div>
+        <div class="row">
+
+            <div class="col m6 s12 l4 fx-fade-down fx-easing-bounce" ng-repeat="item in items | filter:itemsFilter ">
+                <card></card>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-form">
+    <div class="container">
+        <h2>Добавить элементы</h2>
+        <form ng-submit="addItem()">
+            <label>
+                <input type="text" ng-model="newItem.title" placeholder="Заголовок" />
+            </label>
+            <label>
+                <input type="text" ng-model="newItem.link"  placeholder="Ссылка" />
+            </label>
+            <label>
+                <input type="text" ng-model="newItem.descr" placeholder="Описание" />
+            </label>
+            <button type="submit" class="btn waves-effect waves-light">Add item!</button>
+        </form>
+    </div>
+</section>

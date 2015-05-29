@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" ng-app="app">
+<!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- <meta name="viewport" content="width=device-width,inital-scale=1"> -->
+    <!-- wp_head -->
+
+    <script type="text/javascript" src="js/libs/html5.js"></script>    
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/libs.css?v=10">    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css?v=10">    
+
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="js/libs/selectivizr-min.js"></script>
+    <script type="text/javascript" src="js/libs/respond.js"></script>
+    <![endif]-->
+
+    <title>Experiments</title>
+</head>
+
+<body ng-controller="MainCtrl">    
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->            
+    <header>
+        <nav>
+        <div class="wrapper">                
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a ui-sref="main">Main</a></li>
+                  <li><a ui-sref="list">List</a></li>
+                </ul>
+              </div>            
+            </div>
+        </nav>
+    </header>
+
+    <div ui-view></div>
+
+    <footer class="section-footer">
+        <div class="wrapper">
+            <span class="left">Test Test</span>
+            <span class="right">Test Test Test</span>
+        </div>
+    </footer>
+</body>
+
+
+
+<!-- jquery, modernizr, etc -->
+<script type="text/javascript" src="js/libs.js"></script>
+
+
+<!-- angular libs -->
+
+<script type="text/javascript" src="js/libs/angular.1.4.js"></script>
+
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.1/angularfire.min.js"></script>
+
+<script src="js/libs/tweenmax.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+<script type="text/javascript" src="bower_components/ngFx/dist/ngFx.min.js"></script>
+
+<!-- app -->
+<script type="text/javascript" src="js/app.js"></script>
+
+</html>
+    
+</div>
+
+

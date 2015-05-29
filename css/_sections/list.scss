@@ -1,0 +1,57 @@
+// ***************************************************************************
+// List
+// ***************************************************************************
+
+.list-title {
+  font-size: rem(24px);
+}
+
+.list-filter {
+  span {
+    font-size: 20px;
+  }
+}
+
+.no-result {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.card-content {
+  min-height: 120px;
+}
+
+
+.section-list {
+  margin-top: 35px;
+  .col {
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+  .col {
+  //   &.ng-enter {
+  //     @include transition-e(.3s);
+  //     transform: scale(1);
+  //     opacity: 0;
+  //   }
+  //   &.ng-enter-active {    
+  //     transform: scale(.75);
+  //     opacity: 1;
+  //   }  
+  //   &.ng-leave {
+  //     opacity: 1;
+  //     transform: scale(.75);
+  //     @include transition-e(.3s);
+  //   }
+  //   &.ng-leave-active {
+  //     transform: scale(1);
+  //     opacity: 0;
+  //   }  
+  // }
+}
+
+}

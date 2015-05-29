@@ -1,0 +1,51 @@
+@import '_libs/mixin.scss';
+@import '_config.scss';
+
+@import '_variables.scss';
+
+@import '_libs/bourbon/_bourbon.scss';
+@import '_libs/_breakpoint.scss';
+@import '_libs/susy/_susy.scss';
+@import '_partials/base.css';
+@import '_partials/sprite.css';
+@import '_partials/ui-view-animate.scss';
+
+@import '_sections/list.scss';
+@import '_sections/form.scss';
+@import '_sections/item.scss';
+@import '_sections/main.scss';
+@import '_sections/footer.scss';
+
+.body_wrapper {
+    overflow: hidden;
+    min-width: 1100px;
+}
+
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+h1,h2 {
+    font-weight: 600;
+}
+
+html,
+body {
+    font-family: "Proxima Nova";
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.wrapper {
+  width: auto !important;
+  max-width: 1400px;
+}
+
+input[type="submit"] {
+  border: none;
+
+}
